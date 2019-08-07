@@ -316,3 +316,5 @@ mxRadialTreeLayout.prototype.calcRowDims = function(row, rowNum)
 		this.calcRowDims(this.row[rowNum], rowNum + 1);
 	}
 };
+
+exports.mxRadialTreeLayout = mxRadialTreeLayout;

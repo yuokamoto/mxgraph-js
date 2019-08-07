@@ -427,3 +427,5 @@ mxRubberband.prototype.destroy = function()
 		}
 	}
 };
+
+exports.mxRubberband = mxRubberband;

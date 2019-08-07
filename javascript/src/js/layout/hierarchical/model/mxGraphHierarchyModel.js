@@ -679,3 +679,5 @@ mxGraphHierarchyModel.prototype.extendedDfs = function(parent, root, connectingE
 		}
 	}
 };
+
+exports.mxGraphHierarchyModel = mxGraphHierarchyModel;

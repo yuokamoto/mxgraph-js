@@ -1114,3 +1114,5 @@ mxCompactTreeLayout.prototype.processNodeOutgoing = function(node)
 		maxYOffset = Math.max(maxYOffset, currentYOffset);
 	}
 };
+
+exports.mxCompactTreeLayout = mxCompactTreeLayout;

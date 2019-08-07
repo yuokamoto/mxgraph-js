@@ -53,3 +53,5 @@ mxCloud.prototype.redrawPath = function(c, x, y, w, h)
 	c.curveTo(0.5 * w, 0.05 * h, 0.3 * w, 0.05 * h, 0.25 * w, 0.25 * h);
 	c.close();
 };
+
+exports.mxCloud = mxCloud;

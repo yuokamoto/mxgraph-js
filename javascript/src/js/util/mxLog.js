@@ -411,3 +411,5 @@ var mxLog =
 	}
 	
 };
+
+exports.mxLog = mxLog;

@@ -206,3 +206,5 @@ var mxMarker =
 	mxMarker.addMarker('diamond', diamond);
 	mxMarker.addMarker('diamondThin', diamond);
 })();
+
+exports.mxMarker = mxMarker;

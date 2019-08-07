@@ -436,3 +436,5 @@ mxCellState.prototype.destroy = function()
 {
 	this.view.graph.cellRenderer.destroy(this);
 };
+
+exports.mxCellState = mxCellState;

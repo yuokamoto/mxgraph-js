@@ -411,3 +411,5 @@ mxEdgeSegmentHandler.prototype.redrawInnerBends = function(p0, pe)
 		}
 	}
 };
+
+exports.mxEdgeSegmentHandler = mxEdgeSegmentHandler;

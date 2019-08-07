@@ -312,3 +312,6 @@ mxCellHighlight.prototype.destroy = function()
 		this.shape = null;
 	}
 };
+
+
+exports.mxCellHighlight = mxCellHighlight;

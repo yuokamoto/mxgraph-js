@@ -161,3 +161,5 @@ var mxCellPath =
 	}
 
 };
+
+exports.mxCellPath = mxCellPath;

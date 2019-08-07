@@ -135,3 +135,5 @@ var mxCodecRegistry =
 	}
 
 };
+
+exports.mxCodecRegistry = mxCodecRegistry;

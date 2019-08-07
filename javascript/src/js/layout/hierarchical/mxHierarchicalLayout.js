@@ -847,3 +847,5 @@ mxHierarchicalLayout.prototype.placementStage = function(initialX, parent)
 	
 	return placementStage.limitX + this.interHierarchySpacing;
 };
+
+exports.mxHierarchicalLayout = mxHierarchicalLayout;

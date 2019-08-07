@@ -1202,3 +1202,5 @@ mxCellEditor.prototype.destroy = function ()
 		this.zoomHandler = null;
 	}
 };
+
+exports.mxCellEditor = mxCellEditor;

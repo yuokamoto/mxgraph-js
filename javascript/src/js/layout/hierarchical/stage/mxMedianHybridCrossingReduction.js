@@ -611,9 +611,7 @@ mxMedianHybridCrossingReduction.prototype.medianValue = function(connectedCells,
 		var rightMedian = medianValues[arrayCount - 1]
 				- medianValues[medianPoint];
 
-		return (medianValues[medianPoint - 1] * rightMedian + medianValues[medianPoint]
-				* leftMedian)
-				/ (leftMedian + rightMedian);
+		return (medianValues[medianPoint - 1] * rightMedian + medianValues[medianPoint]* leftMedian) / (leftMedian + rightMedian);
 	}
 };
 
@@ -673,3 +671,5 @@ MedianCellSorter.prototype.compare = function(a, b)
 		return 0;
 	}
 };
+
+exports.mxMedianHybridCrossingReduction = mxMedianHybridCrossingReduction;

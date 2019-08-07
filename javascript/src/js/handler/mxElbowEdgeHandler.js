@@ -227,3 +227,5 @@ mxElbowEdgeHandler.prototype.redrawInnerBends = function(p0, pe)
 		this.checkLabelHandle(this.bends[1].bounds);
 	}
 };
+
+exports.mxElbowEdgeHandler = mxElbowEdgeHandler;

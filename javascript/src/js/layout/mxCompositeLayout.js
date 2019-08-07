@@ -99,3 +99,5 @@ mxCompositeLayout.prototype.execute = function(parent)
 		model.endUpdate();
 	}
 };
+
+exports.mxCompositeLayout = mxCompositeLayout;

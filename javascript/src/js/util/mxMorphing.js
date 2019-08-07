@@ -247,3 +247,5 @@ mxMorphing.prototype.getOriginForCell = function(cell)
 	
 	return result;
 };
+
+exports.mxMorphing = mxMorphing;

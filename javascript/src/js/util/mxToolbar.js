@@ -525,3 +525,5 @@ mxToolbar.prototype.destroy = function ()
 		this.menu.destroy();
 	}
 };
+
+exports.mxToolbar = mxToolbar;

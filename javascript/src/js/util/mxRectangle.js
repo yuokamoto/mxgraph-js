@@ -177,3 +177,5 @@ mxRectangle.fromRectangle = function(rect)
 {
 	return new mxRectangle(rect.x, rect.y, rect.width, rect.height);
 };
+
+exports.mxRectangle = mxRectangle;

@@ -113,3 +113,5 @@ mxArrow.prototype.paintEdgeShape = function(c, pts)
 
 	c.fillAndStroke();
 };
+
+exports.mxArrow = mxArrow;

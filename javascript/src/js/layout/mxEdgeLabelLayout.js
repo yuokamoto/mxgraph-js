@@ -163,3 +163,5 @@ mxEdgeLabelLayout.prototype.avoid = function(edge, vertex)
 		}
 	}
 };
+
+exports.mxEdgeLabelLayout = mxEdgeLabelLayout;

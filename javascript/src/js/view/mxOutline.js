@@ -760,3 +760,5 @@ mxOutline.prototype.destroy = function()
 		this.sizer = null;
 	}
 };
+
+exports.mxOutline = mxOutline;

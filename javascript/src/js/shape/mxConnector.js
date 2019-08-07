@@ -147,3 +147,5 @@ mxConnector.prototype.augmentBoundingBox = function(bbox)
 	
 	bbox.grow(size * this.scale);
 };
+
+exports.mxConnector = mxConnector;

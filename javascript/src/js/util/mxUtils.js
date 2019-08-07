@@ -4385,3 +4385,5 @@ var mxUtils =
 	}
 
 };
+
+exports.mxUtils = mxUtils;

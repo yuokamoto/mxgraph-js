@@ -263,3 +263,5 @@ mxPanningManager.prototype.handleMouseOut = true;
  * Border to handle automatic panning inside the component. Default is 0 (disabled).
  */
 mxPanningManager.prototype.border = 0;
+
+exports.mxPanningManager = mxPanningManager;

@@ -799,3 +799,5 @@ mxSwimlaneModel.prototype.extendedDfs = function(parent, root, connectingEdge, v
 		}
 	}
 };
+
+exports.mxSwimlaneModel = mxSwimlaneModel;

@@ -231,3 +231,5 @@ mxCellOverlay.prototype.toString = function()
 {
 	return this.tooltip;
 };
+
+exports.mxCellOverlay = mxCellOverlay;

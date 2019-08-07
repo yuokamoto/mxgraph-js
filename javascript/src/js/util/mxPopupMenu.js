@@ -611,3 +611,5 @@ mxPopupMenu.prototype.destroy = function()
 		this.div = null;
 	}
 };
+
+exports.mxPopupMenu = mxPopupMenu;

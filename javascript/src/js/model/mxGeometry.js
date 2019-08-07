@@ -413,3 +413,5 @@ mxGeometry.prototype.equals = function(obj)
 		((this.alternateBounds == null && obj.alternateBounds == null) || (this.alternateBounds != null && this.alternateBounds.equals(obj.alternateBounds))) &&
 		((this.offset == null && obj.offset == null) || (this.offset != null && this.offset.equals(obj.offset)));
 };
+
+exports.mxGeometry = mxGeometry;

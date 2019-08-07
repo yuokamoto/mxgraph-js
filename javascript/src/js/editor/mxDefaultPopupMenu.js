@@ -304,3 +304,5 @@ mxDefaultPopupMenu.prototype.createConditions = function(editor, cell, evt)
 	
 	return conditions;
 };
+
+exports.mxDefaultPopupMenu = mxDefaultPopupMenu;

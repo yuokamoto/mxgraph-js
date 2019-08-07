@@ -857,3 +857,5 @@ mxStencil.prototype.drawNode = function(canvas, shape, node, aspect, disableShad
 		}
 	}
 };
+
+exports.mxStencil = mxStencil;

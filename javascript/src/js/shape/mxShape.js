@@ -1655,3 +1655,5 @@ mxShape.prototype.destroy = function()
 	this.releaseSvgGradients(this.oldGradients);
 	this.oldGradients = null;
 };
+
+exports.mxShape = mxShape;

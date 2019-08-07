@@ -1216,3 +1216,5 @@ mxPrintPreview.prototype.close = function()
 		this.wnd = null;
 	}
 };
+
+exports.mxPrintPreview = mxPrintPreview;

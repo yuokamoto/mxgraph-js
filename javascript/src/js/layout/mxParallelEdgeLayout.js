@@ -223,3 +223,5 @@ mxParallelEdgeLayout.prototype.route = function(edge, x, y)
 		this.setEdgePoints(edge, [new mxPoint(x, y)]);
 	}
 };
+
+exports.mxParallelEdgeLayout = mxParallelEdgeLayout;

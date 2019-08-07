@@ -467,3 +467,5 @@ mxSwimlane.prototype.getImageBounds = function(x, y, w, h)
 		return new mxRectangle(x, y, this.imageSize, this.imageSize);
 	}
 };
+
+exports.mxSwimlane = mxSwimlane;

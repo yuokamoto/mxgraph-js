@@ -204,3 +204,5 @@ mxGraphAbstractHierarchyCell.prototype.setY = function(layer, value)
 		this.y[layer -this. minRank - 1] = value;
 	}
 };
+
+exports.mxGraphAbstractHierarchyCell = mxGraphAbstractHierarchyCell;

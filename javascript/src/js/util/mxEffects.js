@@ -209,3 +209,5 @@ var mxEffects =
 	}
 
 };
+
+exports.mxEffects = mxEffects;

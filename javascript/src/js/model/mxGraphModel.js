@@ -2700,3 +2700,5 @@ mxCellAttributeChange.prototype.execute = function()
 		this.previous = tmp;
 	}
 };
+
+exports.mxGraphModel = mxGraphModel;

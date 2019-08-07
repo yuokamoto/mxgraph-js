@@ -3014,3 +3014,5 @@ mxCurrentRootChange.prototype.execute = function()
 		'root', this.view.currentRoot, 'previous', this.previous));
 	this.isUp = !this.isUp;
 };
+
+exports.mxGraphView = mxGraphView;

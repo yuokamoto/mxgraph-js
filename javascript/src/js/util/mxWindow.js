@@ -1129,3 +1129,5 @@ mxWindow.prototype.destroy = function()
 	this.content = null;
 	this.contentWrapper = null;
 };
+
+exports.mxWindow = mxWindow;

@@ -94,3 +94,5 @@ mxSwimlaneOrdering.prototype.execute = function(parent)
 		delete unseenNodes[cellId];
 	}, rootsArray, true, null);
 };
+
+exports.mxSwimlaneOrdering = mxSwimlaneOrdering;

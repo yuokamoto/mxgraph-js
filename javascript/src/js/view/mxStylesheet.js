@@ -264,3 +264,5 @@ mxStylesheet.prototype.getCellStyle = function(name, defaultStyle)
 	
 	return style;
 };
+
+exports.mxStylesheet = mxStylesheet;

@@ -201,3 +201,5 @@ mxCircleLayout.prototype.circle = function(vertices, r, left, top)
 		}
 	}
 };
+
+exports.mxCircleLayout = mxCircleLayout;

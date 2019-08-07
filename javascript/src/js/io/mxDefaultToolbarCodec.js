@@ -310,3 +310,5 @@ var mxDefaultToolbarCodec = mxCodecRegistry.register(function()
  * may contain user input
  */
 mxDefaultToolbarCodec.allowEval = true;
+
+exports.mxDefaultToolbarCodec = mxDefaultToolbarCodec;

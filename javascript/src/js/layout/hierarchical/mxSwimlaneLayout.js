@@ -935,3 +935,5 @@ mxSwimlaneLayout.prototype.placementStage = function(initialX, parent)
 	
 	return placementStage.limitX + this.interHierarchySpacing;
 };
+
+exports.mxSwimlaneLayout = mxSwimlaneLayout;

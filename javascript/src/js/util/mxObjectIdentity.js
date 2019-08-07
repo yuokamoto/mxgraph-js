@@ -70,3 +70,5 @@ var mxObjectIdentity =
 	}
 
 };
+
+exports.mxObjectIdentity = mxObjectIdentity;

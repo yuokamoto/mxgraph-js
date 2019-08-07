@@ -211,3 +211,5 @@ mxUndoableEdit.prototype.redo = function()
 	
 	this.notify();
 };
+
+exports.mxUndoableEdit = mxUndoableEdit;

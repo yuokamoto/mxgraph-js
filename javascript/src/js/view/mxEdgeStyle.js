@@ -1567,3 +1567,5 @@ var mxEdgeStyle =
 		return result;
 	}
 };
+
+exports.mxEdgeStyle = mxEdgeStyle;

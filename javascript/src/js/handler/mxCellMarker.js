@@ -428,3 +428,5 @@ mxCellMarker.prototype.destroy = function()
 	this.graph.getModel().removeListener(this.resetHandler);
 	this.highlight.destroy();
 };
+
+exports.mxCellMarker = mxCellMarker;

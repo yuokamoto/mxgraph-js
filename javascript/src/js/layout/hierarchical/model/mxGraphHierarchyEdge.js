@@ -185,3 +185,5 @@ mxGraphHierarchyEdge.prototype.getCoreCell = function()
 	
 	return null;
 };
+
+exports.mxGraphHierarchyEdge = mxGraphHierarchyEdge;

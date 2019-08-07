@@ -577,3 +577,5 @@ WeightedCellSorter.prototype.compare = function(a, b)
 		return 0;
 	}
 };
+
+exports.mxGraphLayout = mxGraphLayout;

@@ -52,3 +52,5 @@ mxPoint.prototype.clone = function()
 	// Handles subclasses as well
 	return mxUtils.clone(this);
 };
+
+exports.mxPoint = mxPoint;

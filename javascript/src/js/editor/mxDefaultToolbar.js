@@ -562,3 +562,5 @@ mxDefaultToolbar.prototype.destroy = function ()
 		this.toolbar = null;
 	}
 };
+
+exports.mxDefaultToolbar = mxDefaultToolbar;

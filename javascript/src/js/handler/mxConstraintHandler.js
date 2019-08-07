@@ -515,3 +515,5 @@ mxConstraintHandler.prototype.destroy = function()
 		this.mouseleaveHandler = null;
 	}
 };
+
+exports.mxConstraintHandler = mxConstraintHandler;

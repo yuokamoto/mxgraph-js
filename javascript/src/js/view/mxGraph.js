@@ -12889,3 +12889,5 @@ mxGraph.prototype.destroy = function()
 		this.container = null;
 	}
 };
+
+exports.mxGraph = mxGraph;

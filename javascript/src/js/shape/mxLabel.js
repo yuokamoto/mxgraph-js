@@ -273,3 +273,5 @@ mxLabel.prototype.redrawHtmlShape = function()
 		this.node.appendChild(node);
 	}
 };
+
+exports.mxLabel = mxLabel;

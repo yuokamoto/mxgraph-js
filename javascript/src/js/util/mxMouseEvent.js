@@ -242,3 +242,5 @@ mxMouseEvent.prototype.consume = function(preventDefault)
 	// Sets local consumed state
 	this.consumed = true;
 };
+
+exports.mxMouseEvent = mxMouseEvent;

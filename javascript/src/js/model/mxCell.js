@@ -823,3 +823,5 @@ mxCell.prototype.cloneValue = function()
 	
 	return value;
 };
+
+exports.mxCell = mxCell;

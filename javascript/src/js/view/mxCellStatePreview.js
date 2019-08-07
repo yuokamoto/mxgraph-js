@@ -201,3 +201,5 @@ mxCellStatePreview.prototype.addEdges = function(state)
 		}
 	}
 };
+
+exports.mxCellStatePreview = mxCellStatePreview;

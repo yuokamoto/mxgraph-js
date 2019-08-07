@@ -200,3 +200,5 @@ mxForm.prototype.addField = function(name, input)
 	
 	return input;
 };
+
+exports.mxForm = mxForm;

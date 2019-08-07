@@ -346,3 +346,5 @@ mxTooltipHandler.prototype.destroy = function()
 		this.div = null;
 	}
 };
+
+exports.mxTooltipHandler = mxTooltipHandler;

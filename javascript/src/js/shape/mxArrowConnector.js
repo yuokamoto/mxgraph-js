@@ -483,3 +483,5 @@ mxArrowConnector.prototype.isMarkerEnd = function()
 {
 	return (mxUtils.getValue(this.style, mxConstants.STYLE_ENDARROW, mxConstants.NONE) != mxConstants.NONE);
 };
+
+exports.mxArrowConnector = mxArrowConnector;

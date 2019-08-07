@@ -125,3 +125,5 @@ mxRectangleShape.prototype.paintForeground = function(c, x, y, w, h)
 		this.paintGlassEffect(c, x, y, w, h, this.getArcSize(w + this.strokewidth, h + this.strokewidth));
 	}
 };
+
+exports.mxRectangleShape = mxRectangleShape;

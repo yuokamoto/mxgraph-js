@@ -1261,3 +1261,5 @@ mxText.prototype.getSpacing = function()
 	
 	return new mxPoint(dx, dy);
 };
+
+exports.mxText = mxText;

@@ -1100,3 +1100,5 @@ mxVmlCanvas2D.prototype.fillAndStroke = function()
 {
 	this.addNode(true, true);
 };
+
+exports.mxVmlCanvas2D = mxVmlCanvas2D;

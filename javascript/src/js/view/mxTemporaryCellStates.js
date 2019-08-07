@@ -131,3 +131,5 @@ mxTemporaryCellStates.prototype.destroy = function()
 	this.view.validateCellState = this.oldValidateCellState;
 	this.view.graph.cellRenderer.doRedrawShape = this.oldDoRedrawShape;
 };
+
+exports.mxTemporaryCellStates = mxTemporaryCellStates;

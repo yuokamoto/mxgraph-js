@@ -427,3 +427,5 @@ mxGuide.prototype.destroy = function()
 		this.guideY = null;
 	}
 };
+
+exports.mxGuide = mxGuide;

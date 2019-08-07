@@ -215,3 +215,5 @@ var mxStylesheetCodec = mxCodecRegistry.register(function()
  * may contain user input.
  */
 mxStylesheetCodec.allowEval = true;
+
+exports.mxStylesheetCodec = mxStylesheetCodec;

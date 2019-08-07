@@ -426,3 +426,5 @@ mxKeyHandler.prototype.destroy = function()
 	
 	this.target = null;
 };
+
+exports.mxKeyHandler = mxKeyHandler;

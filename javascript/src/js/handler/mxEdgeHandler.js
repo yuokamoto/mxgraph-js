@@ -2450,3 +2450,5 @@ mxEdgeHandler.prototype.destroy = function()
 	
 	this.removeHint();
 };
+
+exports.mxEdgeHandler = mxEdgeHandler;

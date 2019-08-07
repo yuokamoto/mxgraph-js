@@ -1095,3 +1095,5 @@ mxObjectCodec.prototype.afterDecode = function(dec, node, obj)
 {
 	return obj;
 };
+
+exports.mxObjectCodec = mxObjectCodec;

@@ -589,3 +589,5 @@ mxFastOrganicLayout.prototype.reduceTemperature = function()
 {
 	this.temperature = this.initialTemp * (1.0 - this.iteration / this.maxIterations);
 };
+
+exports.mxFastOrganicLayout = mxFastOrganicLayout;

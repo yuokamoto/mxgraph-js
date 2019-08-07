@@ -305,3 +305,5 @@ mxSelectionCellsHandler.prototype.destroy = function()
 		this.refreshHandler = null;
 	}
 };
+
+exports.mxSelectionCellsHandler = mxSelectionCellsHandler;

@@ -1,26 +1,29 @@
 {
-    "name": "mxgraph",
-    "version": "4.0.3",
-    "description": "mxGraph is a fully client side JavaScript diagramming library. It is the underlying technology that powers the drawing functionality that you see in https://www.draw.io.",
-    "private": true,
-    "main": "javascript/mxClient.js",
-    "dependencies": {
-    },
-    "devDependencies": {
-    },
-    "scripts": {
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/jgraph/mxgraph-js.git"
-    },
-    "author": {
-        "name": "JGraph Ltd",
-        "email": "support@jgraph.com"
-    },
-    "license": "mxGraph",
-    "bugs": {
-        "url": "https://github.com/jgraph/mxgraph-js/issues"
-    },
-    "homepage": "https://github.com/jgraph/mxgraph-js"
+  "name": "mxGraphJS",
+  "version": "1.0.0",
+  "description": "mxGraphJS model",
+  "main": "dist/mxClient.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dist": "gulp dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://chen844033231:c844033231@github.com/chen844033231/mxGraphJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chen844033231/mxGraphJS/issues"
+  },
+  "homepage": "https://github.com/chen844033231/mxGraphJS#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-usemin": "^0.3.26",
+    "run-sequence": "^1.2.2",
+    "webpack": "^1.14.0"
+  }
 }

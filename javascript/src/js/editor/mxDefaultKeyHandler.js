@@ -124,3 +124,5 @@ mxDefaultKeyHandler.prototype.destroy = function ()
 	this.handler.destroy();
 	this.handler = null;
 };
+
+exports.mxDefaultKeyHandler = mxDefaultKeyHandler;

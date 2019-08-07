@@ -2239,3 +2239,5 @@ mxConnectionHandler.prototype.destroy = function()
 		this.escapeHandler = null;
 	}
 };
+
+exports.mxConnectionHandler = mxConnectionHandler;

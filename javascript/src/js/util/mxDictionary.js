@@ -128,3 +128,5 @@ mxDictionary.prototype.visit = function(visitor)
 		visitor(key, this.map[key]);
 	}
 };
+
+exports.mxDictionary = mxDictionary;
