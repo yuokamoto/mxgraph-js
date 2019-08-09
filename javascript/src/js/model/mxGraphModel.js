@@ -2701,4 +2701,14 @@ mxCellAttributeChange.prototype.execute = function()
 	}
 };
 
-exports.mxGraphModel = mxGraphModel;
+exports.mxGraphModel = mxGraphModel
+exports.mxRootChange = mxRootChange
+exports.mxChildChange = mxChildChange
+exports.mxStyleChange = mxStyleChange
+exports.mxTerminalChange = mxTerminalChange
+exports.mxValueChange = mxValueChange
+exports.mxGeometryChange = mxGeometryChange
+exports.mxCollapseChange = mxCollapseChange
+exports.mxVisibleChange = mxVisibleChange
+exports.mxCellAttributeChange = mxCellAttributeChange
+
